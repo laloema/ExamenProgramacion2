@@ -159,8 +159,8 @@ namespace ExamenProgramacion.Controllers
 
                             };
 
-            string jsonPedidosUsuarios = JsonSerializer.Serialize(Resultado, new JsonSerializerOptions { WriteIndented=true});
-            return Ok(jsonPedidosUsuarios);
+            string jsonPedidosUsuario = JsonSerializer.Serialize(Resultado, new JsonSerializerOptions { WriteIndented=true});
+            return Ok(jsonPedidosUsuario);
 }
     }
 }
